@@ -16,7 +16,7 @@ public class Reader implements Callable<Integer> {
     @Override
     public Integer call() throws Exception{
         System.out.println("\n I am in read");
-        Boolean result = new Boolean(myreader.search(number));
+        Boolean result = new Boolean(myreader.read(number));
         if(result.equals(true))
             System.out.println("\nNumber "+number + " found in the singly-linkedlist");
         else

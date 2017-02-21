@@ -21,5 +21,4 @@ public class Writer implements Callable<Integer>{
             System.out.println("\nNumber "+number + " written in the singly-linkedlist");
             return number;
         }
-    }
 }

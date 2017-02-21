@@ -1,15 +1,12 @@
 /**
  * Created by Jiya on 2/21/17.
  */
-import java.util.Date;
-
-public class Node<T>{
-    final T item;
-    Date lastModified;
-    Node<T> next;
-    Node(T item, Date lastModified, Node<T> next){
+/*Node class to hold Integer data type in a linkedlist*/ 
+public class Node{
+    int item;
+    Node next;
+    Node(int item, Node next){
         this.item = item;
-        this.lastModified = lastModified;
         this.next = next;
     }
 }
